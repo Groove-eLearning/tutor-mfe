@@ -10,7 +10,7 @@ templates = os.path.join(HERE, "templates")
 config = {
     "defaults": {
         "VERSION": __version__,
-        "DOCKER_IMAGE": "{{ DOCKER_REGISTRY }}overhangio/openedx-mfe:{{ MFE_VERSION }}",
+        "DOCKER_IMAGE": "{{ DOCKER_REGISTRY }}edutechdev/openedx-mfe:{{ MFE_VERSION }}",
         "HOST": "apps.{{ LMS_HOST }}",
         "COMMON_VERSION": "{{ OPENEDX_COMMON_VERSION }}",
         "ACCOUNT_MFE_APP": {
