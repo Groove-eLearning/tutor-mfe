@@ -1,0 +1,7 @@
+{% if THEME_GIT_TOKEN is defined %}
+RUN npm install @edx/brand@git+https://{{ THEME_GIT_TOKEN }}:x-oauth-basic@github.com/groove-elearning/brand-openedx.git#feature/EDT-1097
+WORKDIR /openedx/app/node_modules/@edx/brand
+RUN npm install git+https://{{ THEME_GIT_TOKEN }}:x-oauth-basic@github.com/edutech-groove/core-skin.git#feature/EDT-1097
+RUN yarn build
+WORKDIR /openedx/app
+{% endif %}
