@@ -22,7 +22,7 @@ def load_about():
 ABOUT = load_about()
 
 setup(
-    name="tutor-contrib-mfe",
+    name="tutor-mfe",
     version=ABOUT["__version__"],
     url="https://github.com/overhangio/tutor-mfe",
     project_urls={

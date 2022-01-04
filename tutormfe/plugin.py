@@ -15,7 +15,7 @@ config = {
         "COMMON_VERSION": "{{ OPENEDX_COMMON_VERSION }}",
         "ACCOUNT_MFE_APP": {
             "name": "account",
-            "repository": "https://github.com/Groove-eLearning/frontend-app-account",
+            "repository": "https://github.com/edx/frontend-app-account",
             "port": 1997,
             "env": {
                 "production": {
@@ -26,17 +26,17 @@ config = {
         },
         "GRADEBOOK_MFE_APP": {
             "name": "gradebook",
-            "repository": "https://github.com/Groove-eLearning/frontend-app-gradebook",
+            "repository": "https://github.com/edx/frontend-app-gradebook",
             "port": 1994,
         },
         "LEARNING_MFE_APP": {
             "name": "learning",
-            "repository": "https://github.com/Groove-eLearning/frontend-app-learning",
+            "repository": "https://github.com/edx/frontend-app-learning",
             "port": 2000,
         },
         "PROFILE_MFE_APP": {
             "name": "profile",
-            "repository": "https://github.com/Groove-eLearning/frontend-app-profile",
+            "repository": "https://github.com/edx/frontend-app-profile",
             "port": 1995,
         },
     },
