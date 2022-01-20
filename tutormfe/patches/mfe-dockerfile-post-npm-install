@@ -1,3 +1,0 @@
-{% if THEME_GIT_TOKEN is defined %}
-RUN npm install @edx/brand@git+https://github.com/groove-elearning/brand-openedx.git#edutech/release/maple
-{% endif %}
